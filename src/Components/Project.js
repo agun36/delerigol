@@ -2,8 +2,8 @@ import React from 'react'
 import past from '../assests/pastproject.png'
 const Project = () => {
   return (
-    <div className='project p-5' id='project'>
-      <div className='service-project p-3 '>
+    <div className='project  mb-5' id='project'>
+      <div className='service-project  '>
         <h1 className='text'>Some Past Projects</h1>
         <div className='cardlist-project '>
           <div className='service__project'>
@@ -62,7 +62,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <button className='btn-proj'>Find out More</button>
+        <button className='btn-proj'>More Projects</button>
       </div>
     </div>
   )

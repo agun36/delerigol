@@ -1,103 +1,92 @@
-import { Carousel } from 'react-bootstrap'
+import { Carousel, CarouselItem } from 'react-bootstrap'
+
 import '../App.css'
 import author from '../assests/author.png'
 import quoteicon from '../assests/quoteicon.png'
-import prev from '../assests/previous.png'
-import next from '../assests/next.png'
+
 const Feedback = () => {
   return (
-    <div id='clients'>
-      <h1 className='feedback-title'>Clients Feedback</h1>
-      <div className='bodycard'>
-        <Carousel className='postcaro'>
-          <Carousel.Item className='card-body'>
-            <img className='prev' src={prev} alt='' />
-            <img className='next' src={next} alt='' />
-            <img
-              className='icone'
-              src={quoteicon}
-              style={{ width: '69px', height: '40.93px', opacity: '20%' }}
-              alt=''
-            />
-            <div className='iconcarou'>
-              <div className='author'>
-                <div>
-                  <img className='rounded-5' src={author} alt='' />
+    <div id='clients ' className='p-5'>
+      <div className='testimonial'>
+        <h1>Client Feedback</h1>
+        <div className='test'>
+          <div className=' mySwipe'>
+            <Carousel className='testi-content swiper-wrapper'>
+              <Carousel.Item>
+                <div className='left-quote'>
+                  <img src={quoteicon} alt='' />
                 </div>
-                <div className='author2'>
-                  <span className='author-title'>Okon Bassey</span>
-                  <span>Omo Reader</span>
+                <div className='d-flex align-items-center justify-content-center mb-4 '>
+                  <img src={author} alt='' className='image rounded-5' />
+                  <div className='d-flex flex-column'>
+                    <span className='author'>Okon Bassey</span>
+                    <cite className='author-sub'>CMO, Reeder</cite>
+                  </div>
                 </div>
-              </div>
-              <div className=''>
-                <p className='caption-text'>
-                  “It's exactly what I've been looking for. Their zeal and
-                  hardwork in building a very intuitive but proficient solution
-                  for our business is highly commendable.”
-                </p>
-              </div>
-            </div>
-            <img src={quoteicon} className='icone2' alt='' />
-          </Carousel.Item>
-          <Carousel.Item className='card-body'>
-            <img className='prev' src={prev} alt='' />
-            <img className='next' src={next} alt='' />
-            <img
-              className='icone'
-              src={quoteicon}
-              style={{ width: '69px', height: '40.93px', opacity: '20%' }}
-              alt=''
-            />
-            <div className='iconcarou'>
-              <div className='author'>
-                <div>
-                  <img src={author} alt='' className='rounded-5' />
+
+                <div className='d-flex align-items-center justify-content-center'>
+                  <p className='slider-text'>
+                    “It's exactly what I've been looking for. Their zeal and
+                    hardwork in building a very intuitive but proficient
+                    solution for our business is highly commendable.”
+                  </p>
                 </div>
-                <div className='author2'>
-                  <span className='author-title'>Okon Bassey</span>
-                  <span>Omo Reader</span>
+                <div className='right-quote '>
+                  <img src={quoteicon} alt='' />
                 </div>
-              </div>
-              <div className=''>
-                <p className='caption-text'>
-                  “It's exactly what I've been looking for. Their zeal and
-                  hardwork in building a very intuitive but proficient solution
-                  for our business is highly commendable.”
-                </p>
-              </div>
-            </div>
-            <img src={quoteicon} className='icone2' alt='' />
-          </Carousel.Item>
-          <Carousel.Item className='card-body'>
-            <img className='prev' src={prev} alt='' />
-            <img className='next' src={next} alt='' />
-            <img
-              className='icone'
-              src={quoteicon}
-              style={{ width: '69px', height: '40.93px', opacity: '20%' }}
-              alt=''
-            />
-            <div className='iconcarou'>
-              <div className='author'>
-                <div>
-                  <img src={author} alt='' className='rounded-5' />
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className='left-quote'>
+                  <img src={quoteicon} alt='' />
                 </div>
-                <div className='author2'>
-                  <span className='author-title'>Okon Bassey</span>
-                  <span>Omo Reader</span>
+                <div className='d-flex align-items-center justify-content-center mb-4'>
+                  <img src={author} alt='' className='image rounded-5' />
+                  <div className='d-flex flex-column'>
+                    <span className='author'>Okon Bassey</span>
+                    <cite className='author-sub'>CMO, Reeder</cite>
+                  </div>
                 </div>
-              </div>
-              <div className=''>
-                <p className='caption-text'>
-                  “It's exactly what I've been looking for. Their zeal and
-                  hardwork in building a very intuitive but proficient solution
-                  for our business is highly commendable.”
-                </p>
-              </div>
-            </div>
-            <img src={quoteicon} className='icone2' alt='' />
-          </Carousel.Item>
-        </Carousel>
+
+                <div className='d-flex align-items-center justify-content-center'>
+                  <p className='slider-text'>
+                    “It's exactly what I've been looking for. Their zeal and
+                    hardwork in building a very intuitive but proficient
+                    solution for our business is highly commendable.”
+                  </p>
+                </div>
+                <div className='right-quote'>
+                  <img src={quoteicon} alt='' />
+                </div>
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className='left-quote'>
+                  <img src={quoteicon} alt='' />
+                </div>
+                <div className='d-flex align-items-center justify-content-center mb-4'>
+                  <img src={author} alt='' className='image rounded-5' />
+                  <div className='d-flex flex-column'>
+                    <span className='author'>Okon Bassey</span>
+                    <cite className='author-sub'>CMO, Reeder</cite>
+                  </div>
+                </div>
+
+                <div className='d-flex align-items-center justify-content-center'>
+                  <p className='slider-text'>
+                    “It's exactly what I've been looking for. Their zeal and
+                    hardwork in building a very intuitive but proficient
+                    solution for our business is highly commendable.”
+                  </p>
+                </div>
+                <div className='right-quote '>
+                  <img src={quoteicon} alt='' />
+                </div>
+              </Carousel.Item>
+            </Carousel>
+            <div className='swiper-button-next nav-btn'></div>
+            <div className='swiper-button-prev nav-btn'></div>
+            <div className='swiper-pagination'></div>
+          </div>
+        </div>
       </div>
     </div>
   )
