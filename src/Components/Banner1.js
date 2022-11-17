@@ -1,11 +1,6 @@
 import React from 'react'
 import '../App.css'
-
-import coat from '../assests/carousel/coat.png'
-import galaxy from '../assests/carousel/galaxy.png'
-import police from '../assests/carousel/police.png'
-import coat2 from '../assests/carousel/coat2.png'
-import insurance from '../assests/carousel/insurance.png'
+import property from '../assests/Property 1=01.png'
 import { Col, Row } from 'react-bootstrap'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
@@ -46,67 +41,19 @@ const Banner1 = () => {
         >
           <Col className='d-flex '>
             <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={coat} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={galaxy} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={police} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={insurance} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={coat2} alt='' />
+              <img className=' img-fluid' src={property} alt='' />
             </div>
           </Col>
 
           <Col className='d-flex'>
             <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={coat} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={galaxy} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={police} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={insurance} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={coat2} alt='' />
+              <img className=' img-fluid' src={property} alt='' />
             </div>
           </Col>
 
           <Col className='d-flex'>
             <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={coat} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={galaxy} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={police} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={insurance} alt='' />
-            </div>
-
-            <div className='mb-2 me-4'>
-              <img className='img-fluid' src={coat2} alt='' />
+              <img className=' img-fluid' src={property} alt='' />
             </div>
           </Col>
         </Carousel>
