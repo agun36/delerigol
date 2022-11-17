@@ -1,13 +1,17 @@
 import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-
+import { Stack } from 'react-bootstrap'
+import twitter from '../assests/Vector.png'
 const FooterList = () => {
   return (
-    <div>
-      <Row className=' d-flex align-items-center'>
-        <Col sm={8}>Copyright 2022 Rongil. All Rights Reserved.</Col>
-        <Col sm={4}>Copyright 2022 Rongil. All Rights Reserved.</Col>
-      </Row>
+    <div className='  footer'>
+      <Stack direction='horizontal' gap={3} className='container'>
+        <div> Copyright 2022 Rongil. All Rights Reserved.</div>
+
+        <div className='ms-auto'>
+          {' '}
+          <img src={twitter} alt='' /> Follow us on Twitter
+        </div>
+      </Stack>
     </div>
   )
 }

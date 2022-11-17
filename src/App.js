@@ -1,9 +1,6 @@
-import 'react-multi-carousel/lib/styles.css'
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Homepages from './Components/Homepages'
-// import NavbarList from './Components/NavbarList'
 import About from './About'
 // import Services from './Services'
 // import Contact from './Contact'

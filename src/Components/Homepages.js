@@ -43,7 +43,7 @@ const Homepages = () => {
         <div>
           <Blocquote />
         </div>
-        <div className='footer'>
+        <div>
           <FooterList />
         </div>
       </div>

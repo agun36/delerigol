@@ -1,4 +1,4 @@
-import { Carousel, CarouselItem } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 
 import '../App.css'
 import author from '../assests/author.png'

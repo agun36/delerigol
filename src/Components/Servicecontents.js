@@ -18,7 +18,7 @@ const Servicecontents = () => {
         <h1 className='text servicetitle'>Our Service</h1>
         <div className='cardlist cardlist1 '>
           <div className='service__cardlist'>
-            <img src={code1} alt='' />
+            <img src={code1} alt='' className='img-fluid' />
             <h4 className='servicetitle'>Business Solutions</h4>
             <p className='textlist'>
               We are a software shop that has built few business solutions that
@@ -27,7 +27,7 @@ const Servicecontents = () => {
             </p>
           </div>
           <div className='service__cardlist'>
-            <img src={code} alt='' />
+            <img src={code} alt='' className='img-fluid' />
             <h4 className='servicetitle'>ICT Consulting</h4>
             <p className='textlist'>
               We consult for corporate on technology strategy, enterprise
@@ -38,7 +38,7 @@ const Servicecontents = () => {
         </div>
         <div className='cardlist cardlist2'>
           <div className='service__cardlist'>
-            <img src={plane} alt='' />
+            <img src={plane} alt='' className='img-fluid' />
             <h4 className='servicetitle'>Design Sprint </h4>
             <p className='textlist'>
               We facilitate design sprint to help you innovate on new services
@@ -47,7 +47,7 @@ const Servicecontents = () => {
             </p>
           </div>
           <div className='service__cardlist'>
-            <img src={bulb} alt='' />
+            <img src={bulb} alt='' className='img-fluid' />
             <h4 className='servicetitle'>GovTech Innovation</h4>
             <p className='textlist'>
               We work with governments to innovate on efficient and value-driven

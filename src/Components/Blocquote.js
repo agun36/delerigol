@@ -22,60 +22,53 @@ const Blocquote = () => {
             with us and we will be more than happy to assist.
           </p>
         </Col>
-        <Col sm={12} md={6} lg={6}>
+        <Col sm={12} md={6} lg={4} className='input'>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
-            <div className='row-form '>
-              <Row className='mb-3 '>
-                <Form.Group sm md lg as={Col} controlId='validationCustom01'>
-                  <Form.Label>Name</Form.Label>
-                  <Form.Control
-                    type='password'
-                    placeholder='Password'
-                    required
-                  />
-                  <Form.Control.Feedback type='invalid'>
-                    Please choose a name.
-                  </Form.Control.Feedback>
-                </Form.Group>
-                <Form.Group as={Col} controlId='validationCustom02'>
-                  <Form.Label>Email</Form.Label>
-                  <Form.Control
-                    type='email'
-                    placeholder='Enter email'
-                    required
-                  />
-                  <Form.Control.Feedback type='invalid'>
-                    Please choose a Email.
-                  </Form.Control.Feedback>
-                </Form.Group>
-              </Row>
+            <div className='row-form mb-3 '>
+              <Form.Group controlId='validationCustom01'>
+                <Form.Label>Name</Form.Label>
+                <Form.Control
+                  type='text'
+                  placeholder='Name'
+                  required
+                  className='name-form'
+                />
+                <Form.Control.Feedback type='invalid'>
+                  Please choose a name.
+                </Form.Control.Feedback>
+              </Form.Group>
+              <Form.Group controlId='validationCustom02'>
+                <Form.Label>Email</Form.Label>
+                <Form.Control
+                  type='email'
+                  placeholder='Enter email'
+                  required
+                  className='email-form'
+                />
+                <Form.Control.Feedback type='invalid'>
+                  Please choose a Email.
+                </Form.Control.Feedback>
+              </Form.Group>
             </div>
-            <Form.Group
-              as={Col}
-              className='mb-3'
-              controlId='validationCustom03'
-            >
-              <Form.Label>message</Form.Label>
-              <Form.Control
-                as='textarea'
-                rows={3}
-                placeholder='message'
-                required
-              />
-            </Form.Group>
-            <Row>
-              <Button
-                style={{ background: '#9CC236' }}
+            <div className='row-form2'>
+              <Form.Group
                 as={Col}
-                sm
-                md
-                lg
-                variant='primary'
-                type='submit'
+                className='mb-3  message-input'
+                controlId='validationCustom03'
               >
+                <Form.Label>message</Form.Label>
+                <Form.Control
+                  as='textarea'
+                  rows={3}
+                  placeholder='message'
+                  required
+                />
+              </Form.Group>
+
+              <Button className='form-btn' type='submit'>
                 Submit
               </Button>
-            </Row>
+            </div>
           </Form>
         </Col>
       </Row>

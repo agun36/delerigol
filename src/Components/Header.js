@@ -26,34 +26,38 @@ const Header = () => {
             >
               Explore
             </button>
+            <div className='blur'></div>
           </Col>
 
           <Col sm={4} className=' header__content--image'>
             <img
-              className=' header__content--image--img1'
+              className=' header__content--image--img1 img-fluid'
               src={headerimg}
               alt=''
             />
             <img
-              className='header__content--image--bounce bounce2'
+              className='header__content--image--bounce bounce2 img-fluid'
               src={bounce}
               alt=''
             />
             <img
-              className='header__content--image--plus'
+              className='header__content--image--plus img-fluid'
               src={plus}
               alt='plus'
             />
             <img
-              className='header__content--image--plus2'
+              className='header__content--image--plus2 img-fluid'
               src={plus2}
               alt='plus2'
             />
-            <img
-              className='header__content--image--rounded'
-              src={rounded}
-              alt=''
-            />
+            <div>
+              <img
+                className='header__content--image--rounded img-fluid'
+                src={rounded}
+                alt=''
+              />
+            </div>
+            <div className='blur2'></div>
           </Col>
         </Row>
       </>
