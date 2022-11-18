@@ -41,6 +41,12 @@ const Banner1 = () => {
           <Col className='d-flex '>
             <img className=' img-fluid' src={clientcaro} alt='' />
           </Col>
+          <Col className='d-flex '>
+            <img className=' img-fluid' src={clientcaro} alt='' />
+          </Col>
+          <Col className='d-flex '>
+            <img className=' img-fluid' src={clientcaro} alt='' />
+          </Col>
         </Carousel>
       </Row>
     </div>
