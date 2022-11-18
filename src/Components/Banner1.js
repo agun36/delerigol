@@ -1,10 +1,9 @@
 import React from 'react'
 import '../App.css'
-import property from '../assests/Property 1=01.png'
 import { Col, Row } from 'react-bootstrap'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-
+import clientcaro from '../assests/client car.png'
 const Banner1 = () => {
   const responsive = {
     superLargeDesktop: {
@@ -40,21 +39,7 @@ const Banner1 = () => {
           itemAriaLabel={3}
         >
           <Col className='d-flex '>
-            <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={property} alt='' />
-            </div>
-          </Col>
-
-          <Col className='d-flex'>
-            <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={property} alt='' />
-            </div>
-          </Col>
-
-          <Col className='d-flex'>
-            <div className='mb-2 me-4'>
-              <img className=' img-fluid' src={property} alt='' />
-            </div>
+            <img className=' img-fluid' src={clientcaro} alt='' />
           </Col>
         </Carousel>
       </Row>
