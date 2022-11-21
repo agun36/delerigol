@@ -9,8 +9,8 @@
 }
 
 .title {
-  margin-bottom: 20px;
-  padding: 20px
+  margin-bottom: 20px !important;
+  padding: 20px !important;
 }
 
 .img {
@@ -37,10 +37,29 @@
   width: 299.5px !important;
 }
 
-.form-btn {
-  width: 599px;
-  height: 48px;
+.brandBtn {
   background: #9CC236 !important;
+  box-shadow: 0px 4px 8px -1px rgba(156, 194, 54, 0.2) !important;
+  border-radius: 6px !important;
+  padding: 12px !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 27px !important;
+}
+
+.form-btn {
+  width: 599px !important;
+  height: 48px !important;
+  background: #9CC236 !important;
+  box-shadow: 0px 4px 8px -1px rgba(156, 194, 54, 0.2) !important;
+  border-radius: 6px !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 27px !important;
 }
 
 
@@ -75,7 +94,7 @@
 
 .modal--title {
   font-weight: 700;
-  font-family: poppins;
+  font-family: 'poppins';
   font-size: 24px;
   width: 234px;
 }
@@ -92,7 +111,7 @@
 }
 
 .nav-list {
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-weight: 600;
 }
 
@@ -319,9 +338,14 @@
   margin: 0 auto;
 }
 
+.img-car {
+  height: 104px;
+  width: 2352px;
+}
+
 .cardlist--items {
   display: flex;
-  flex-wrap: wrap;
+
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -805,6 +829,24 @@
   content: url(./assests/next.png);
 }
 
+.card {
+  background: #EDEEFA !important;
+  width: 296.75px;
+  height: 248px;
+  border-radius: 12px;
+}
+
+.card--text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #39364D;
+
+}
+
 
 
 
@@ -1012,20 +1054,35 @@
 
   .row-form {
     flex-direction: column;
+
   }
 
-  .name-form, .email-form {
-    width: 400px !important;
-  }
+
 
   .message-input, .form-btn {
-    width: 400px;
+    width: 300px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width:400px) {
+  .name-form, .email-form, .text-area, .form-btn {
+    width: 500px !important;
   }
 
 
 }
 
+@media screen and (max-width:300px) {
+  .name-form, .email-form, .text-area, .form-btn {
+    width: 200px !important;
+  }
 
+
+}
 
 @media screen and (min-width:700px) {
   .cardlist1 {

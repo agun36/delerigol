@@ -15,14 +15,14 @@ const Blocquote = () => {
   return (
     <div className='blockg'>
       <Row className=' p-5  justify-center align-items-center'>
-        <Col sm={12} md={4} lg={6}>
+        <Col sm={12} md={6} lg={6}>
           <h1 className='blocq--title'>Ready to give your business a boost?</h1>
           <p className='blocq--text'>
             Need further clarification or ready to start a project? Get in touch
             with us and we will be more than happy to assist.
           </p>
         </Col>
-        <Col sm={12} md={8} lg={6} className='input'>
+        <Col sm={12} md={6} lg={6} className='input'>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <div className='row-form mb-3 '>
               <Form.Group controlId='validationCustom01'>
@@ -50,7 +50,7 @@ const Blocquote = () => {
                 </Form.Control.Feedback>
               </Form.Group>
             </div>
-            <div className='row-form2'>
+            <div className='row-form2 '>
               <Form.Group
                 as={Col}
                 className='mb-3  message-input'
@@ -62,6 +62,7 @@ const Blocquote = () => {
                   rows={3}
                   placeholder='message'
                   required
+                  className='text-area'
                 />
               </Form.Group>
 

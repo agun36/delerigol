@@ -96,7 +96,7 @@ const NavbarList = () => {
                     </Form>
                   </Modal.Body>
                   <Modal.Footer>
-                    <Button className='brandBtn p-4' onClick={handleClose}>
+                    <Button className='brandBtn' onClick={handleClose}>
                       Send Message
                     </Button>
                   </Modal.Footer>
