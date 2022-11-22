@@ -70,7 +70,7 @@ const Feedback = () => {
                   </div>
                 </div>
 
-                <div className='d-flex align-items-center justify-content-center'>
+                <div className='d-flex align-items-center justify-content-center '>
                   <p className='slider-text'>
                     “It's exactly what I've been looking for. Their zeal and
                     hardwork in building a very intuitive but proficient

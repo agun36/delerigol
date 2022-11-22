@@ -798,7 +798,7 @@
 .right-quote {
   display: flex;
   justify-content: flex-end;
-  /* margin-top: 80px; */
+  margin-top: 80px;
 }
 
 .author {
@@ -1021,6 +1021,10 @@
     width: fit-content;
   }
 
+  .right-quote {
+    margin-top: 0;
+  }
+
   .cardlist-project {
     flex-wrap: wrap;
 
@@ -1091,8 +1095,10 @@
   }
 
   .carousel {
-    width: 350px !important;
-
+    width: 370px !important;
+    padding: 25px !important;
+    height: 355px;
+    margin: 30px;
     /* padding: 0; */
   }
 
