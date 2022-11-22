@@ -798,7 +798,7 @@
 .right-quote {
   display: flex;
   justify-content: flex-end;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .author {
@@ -1091,10 +1091,12 @@
   }
 
   .carousel {
-    width: 450px !important;
+    width: 350px !important;
 
     /* padding: 0; */
   }
+
+
 
   .slider-text {
     /* width: 75%; */

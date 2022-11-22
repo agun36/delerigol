@@ -9,8 +9,8 @@ const Feedback = () => {
     <div id='clients ' className='p-5'>
       <div className='testimonial'>
         <h1>Client Feedback</h1>
-        <div className='test'>
-          <div className=' mySwipe'>
+        <div className='test '>
+          <div className=' mySwipe d-flex justify-content-center'>
             <Carousel className='testi-content swiper-wrapper'>
               <Carousel.Item>
                 <div className='left-quote'>
@@ -77,7 +77,7 @@ const Feedback = () => {
                     solution for our business is highly commendable.”
                   </p>
                 </div>
-                <div className='right-quote '>
+                <div className='right-quote  '>
                   <img src={quoteicon} alt='' />
                 </div>
               </Carousel.Item>
