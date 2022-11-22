@@ -1091,7 +1091,8 @@
   }
 
   .carousel {
-    width: 450px;
+    width: 450px !important;
+
     /* padding: 0; */
   }
 
