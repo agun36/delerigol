@@ -29,13 +29,7 @@
   flex-direction: column;
 }
 
-.name-form {
-  width: 299.5px !important;
-}
 
-.email-form {
-  width: 299.5px !important;
-}
 
 .brandBtn {
   background: #9CC236 !important;
@@ -50,7 +44,7 @@
 }
 
 .form-btn {
-  width: 599px !important;
+  width: 100% !important;
   height: 48px !important;
   background: #9CC236 !important;
   box-shadow: 0px 4px 8px -1px rgba(156, 194, 54, 0.2) !important;
@@ -62,12 +56,24 @@
   line-height: 27px !important;
 }
 
+.frex {
+  display: flex !important;
+}
 
+.name-form {
+  padding: 12px 16px !important;
+}
+
+.email-form {
+  padding: 12px 16px !important;
+}
 
 .message-input {
-  height: 144px;
+  height: 144px !important;
   background: none !important;
-  width: 599px;
+  width: 100% !important;
+
+
 }
 
 .modal-90w {
@@ -339,8 +345,9 @@
 }
 
 .img-car {
-  height: 104px;
-  width: 2352px;
+  height: 104px !important;
+  width: 2352px !important;
+  max-width: 100% !important;
 }
 
 .cardlist--items {
@@ -349,6 +356,14 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+.card--text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .card-Item {
@@ -414,6 +429,15 @@
 }
 
 
+.card-project {
+  width: 405px;
+  height: 184px;
+
+  border: 1px solid #FFFFFF;
+
+  filter: drop-shadow(0px 8px 20px rgba(42, 45, 133, 0.1));
+  border-radius: 12px;
+}
 
 .service {
   background-color: #fff;
@@ -421,7 +445,7 @@
 
 .service-card {
   margin-top: 100px;
-  font-family: poppins;
+  font-family: 'poppins' !important;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -430,22 +454,15 @@
   background-color: #edeefa;
 }
 
+
+
 .service-project {
-  /* margin-top: 100px; */
-  font-family: poppins;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  /* background-color: #edeefa; */
+  font-family: 'poppins' !important;
+  padding: 0 !important;
+  justify-content: center !important;
+
 }
 
-.cardlist-project {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-}
 
 .service__cardlist {
   display: flex;
@@ -459,25 +476,14 @@
   text-align: center;
 }
 
-.service__project {
-  width: 405px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 184px;
-  background: none !important;
-  border: 1px solid white;
-  border-radius: 12px;
-  /* margin: 20px; */
-  gap: 20px;
 
-}
+
 
 .textlist-project {
-  width: 280px;
-  font-family: poppins;
-  font-size: 14px;
-  line-height: 21px;
+  width: 280px !important;
+  font-family: "poppins" !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
 }
 
 .text {
@@ -491,43 +497,66 @@
   line-height: 21px;
 }
 
-.btn-service {
-  font-family: poppins;
-  width: 197px;
-  height: 56px;
-  margin: auto;
-  padding: 12px;
-  line-height: 27px;
+.button-service {
+  font-style: normal;
   font-size: 18px;
+  line-height: 27px;
   font-weight: 600;
+  font-family: 'poppins' !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-service {
+  font-family: 'poppins' !important;
+  width: 197px !important;
+  height: 56px !important;
+
+  padding: 12px !important;
+  line-height: 27px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
   background: none !important;
   color: #39364D !important;
+  border: 1px solid rgba(42, 45, 133, 0.5) !important;
   box-shadow: 0px 4px 8px -1px rgba(42, 45, 133, 0.2);
-  border-radius: 6px;
-  border: 1px solid rgba(42, 45, 133, 0.5);
+  border-radius: 6px !important;
+
+
 }
 
 .btn-proj {
-  font-family: poppins;
-  width: 197px;
-  height: 56px;
-  margin: 0 auto;
-  padding: 12px;
-  line-height: 27px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 4px 8px -1px rgba(42, 45, 133, 0.2);
+  font-family: 'Poppins' !important;
+  width: 197px !important;
+  height: 56px !important;
+  margin: 0 auto !important;
+  padding: 12px !important;
+  line-height: 27px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0px 4px 8px -1px rgba(42, 45, 133, 0.2) !important;
 
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   background: none !important;
+}
+
+.btncenter {
+  display: flex;
 }
 
 .itemsca {
 
-  height: 343px;
-  font-family: poppins;
+  height: 343px !important;
+  font-family: 'poppins' !important;
 }
 
 
@@ -558,11 +587,10 @@
       rgba(42, 45, 133, 0.7) 100%), url(./assests//second\ background.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  font-family: poppins;
+  font-family: "Poppins";
   background-size: cover;
   background-position: center center;
   color: #fff;
-  font-family: poppins;
 }
 
 .text-project {
@@ -645,6 +673,9 @@
 
 }
 
+.card {
+  width: 405px;
+}
 
 
 
@@ -831,9 +862,17 @@
 
 .card {
   background: #EDEEFA !important;
-  width: 296.75px;
-  height: 248px;
-  border-radius: 12px;
+  width: 296.75px !important;
+  height: 248px !important;
+  border-radius: 12px !important;
+  display: flex !important;
+
+}
+
+.card-body {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
 }
 
 .card--text {
@@ -851,7 +890,7 @@
 
 
 .modal--footer {
-  width: 100%;
+  width: 100% !important;
 
 }
 
@@ -887,17 +926,9 @@
 }
 
 
-@media screen and (max-width:400px) {
-  .name-form, .email-form {
-    width: 300px !important;
-  }
 
-  .message-input, .form-btn {
-    width: 300px;
-  }
-}
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
 
   .App {
@@ -965,6 +996,23 @@
 
   }
 
+
+
+  .card-project {
+    width: 255px;
+    height: 184px;
+
+
+  }
+
+  .textlist {
+    width: 202px;
+    /* height: 25px; */
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+
   .service__cardlist {
     width: 300px;
   }
@@ -1030,6 +1078,8 @@
     font-size: 14px;
   }
 
+
+
   .service__project {
     width: 300px;
     height: 130px;
@@ -1057,32 +1107,21 @@
 
   }
 
-
-
-  .message-input, .form-btn {
-    width: 300px;
+  .row-gold {
+    flex-wrap: wrap;
+    gap: 12px;
   }
+
+
 
 
 
 
 }
 
-@media screen and (max-width:400px) {
-  .name-form, .email-form, .text-area, .form-btn {
-    width: 500px !important;
-  }
 
 
-}
 
-@media screen and (max-width:300px) {
-  .name-form, .email-form, .text-area, .form-btn {
-    width: 200px !important;
-  }
-
-
-}
 
 @media screen and (min-width:700px) {
   .cardlist1 {
@@ -1102,13 +1141,15 @@
     width: 200px;
   }
 
-  .service__cardlist {
-    width: 400px;
 
-  }
 
   .textlist {
     width: 300px;
+  }
+
+  .row-gold {
+    /* grid-template-columns: 33% 33% 33%; */
+    gap: 12px;
   }
 
 }

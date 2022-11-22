@@ -24,52 +24,60 @@ const Blocquote = () => {
         </Col>
         <Col sm={12} md={6} lg={6} className='input'>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
-            <div className='row-form mb-3 '>
-              <Form.Group controlId='validationCustom01'>
-                <Form.Label>Name</Form.Label>
-                <Form.Control
-                  type='text'
-                  placeholder='Name'
-                  required
-                  className='name-form'
-                />
-                <Form.Control.Feedback type='invalid'>
-                  Please choose a name.
-                </Form.Control.Feedback>
-              </Form.Group>
-              <Form.Group controlId='validationCustom02'>
-                <Form.Label>Email</Form.Label>
-                <Form.Control
-                  type='email'
-                  placeholder='Enter email'
-                  required
-                  className='email-form'
-                />
-                <Form.Control.Feedback type='invalid'>
-                  Please choose a Email.
-                </Form.Control.Feedback>
-              </Form.Group>
-            </div>
-            <div className='row-form2 '>
-              <Form.Group
-                as={Col}
-                className='mb-3  message-input'
-                controlId='validationCustom03'
-              >
-                <Form.Label>message</Form.Label>
-                <Form.Control
-                  as='textarea'
-                  rows={3}
-                  placeholder='message'
-                  required
-                  className='text-area'
-                />
-              </Form.Group>
+            <Row className=' mb-3 frex'>
+              <Col xs={12} md={6} lg={5}>
+                <Form.Group controlId='validationCustom01'>
+                  <Form.Label>Name</Form.Label>
+                  <Form.Control
+                    type='text'
+                    placeholder='Name'
+                    required
+                    className='name-form'
+                  />
+                  <Form.Control.Feedback type='invalid'>
+                    Please choose a name.
+                  </Form.Control.Feedback>
+                </Form.Group>
+              </Col>
 
-              <Button className='form-btn' type='submit'>
-                Submit
-              </Button>
-            </div>
+              <Col xs={12} md={6} lg={5}>
+                <Form.Group controlId='validationCustom02'>
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control
+                    type='email'
+                    placeholder='Enter email'
+                    required
+                    className='email-form'
+                  />
+                  <Form.Control.Feedback className='fedback' type='invalid'>
+                    Please choose a Email.
+                  </Form.Control.Feedback>
+                </Form.Group>
+              </Col>
+            </Row>
+            <Row className='row-form2 '>
+              <Col sm={12} lg={10}>
+                <Form.Group
+                  as={Col}
+                  className='mb-3  message-input'
+                  controlId='validationCustom03'
+                >
+                  <Form.Label>message</Form.Label>
+                  <Form.Control
+                    as='textarea'
+                    rows={3}
+                    placeholder='message'
+                    required
+                    className='text-area'
+                  />
+                </Form.Group>
+              </Col>
+              <Col lg={10}>
+                <Button className='form-btn' type='submit'>
+                  Submit
+                </Button>
+              </Col>
+            </Row>
           </Form>
         </Col>
       </Row>

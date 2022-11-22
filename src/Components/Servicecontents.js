@@ -19,7 +19,7 @@ const Servicecontents = () => {
         <div className='cardlist cardlist1 '>
           <div className='service__cardlist'>
             <img src={code1} alt='' className='img-fluid' />
-            <h4 className='servicetitle'>Business Solutions</h4>
+            <h4 className='servicetitle mt-3'>Business Solutions</h4>
             <p className='textlist'>
               We are a software shop that has built few business solutions that
               help our clients improve their operational efficiency and
@@ -28,7 +28,7 @@ const Servicecontents = () => {
           </div>
           <div className='service__cardlist'>
             <img src={code} alt='' className='img-fluid' />
-            <h4 className='servicetitle'>ICT Consulting</h4>
+            <h4 className='servicetitle mt-3'>ICT Consulting</h4>
             <p className='textlist'>
               We consult for corporate on technology strategy, enterprise
               architecture and technology execution to drive strategic business
@@ -39,7 +39,7 @@ const Servicecontents = () => {
         <div className='cardlist cardlist2'>
           <div className='service__cardlist'>
             <img src={plane} alt='' className='img-fluid' />
-            <h4 className='servicetitle'>Design Sprint </h4>
+            <h4 className='servicetitle mt-3'>Design Sprint </h4>
             <p className='textlist'>
               We facilitate design sprint to help you innovate on new services
               and products quickly and effectively so you can focus on giving
@@ -48,7 +48,7 @@ const Servicecontents = () => {
           </div>
           <div className='service__cardlist'>
             <img src={bulb} alt='' className='img-fluid' />
-            <h4 className='servicetitle'>GovTech Innovation</h4>
+            <h4 className='servicetitle mt-3'>GovTech Innovation</h4>
             <p className='textlist'>
               We work with governments to innovate on efficient and value-driven
               services for citizens, businesses, external stakeholders and other
@@ -56,9 +56,11 @@ const Servicecontents = () => {
             </p>
           </div>
         </div>
-        <Button className='btn-service mb-4 ' onClick={handleShow}>
-          Find out More
-        </Button>
+        <div className='servicebutton'>
+          <Button className='btn-service mb-4 ' onClick={handleShow}>
+            Find out More
+          </Button>
+        </div>
         <Modal show={show} onHide={handleClose} dialogClassName='modal-90w'>
           <Modal.Header closeButton>
             <Modal.Title>Our Services </Modal.Title>

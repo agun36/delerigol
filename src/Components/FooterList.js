@@ -3,7 +3,7 @@ import { Stack } from 'react-bootstrap'
 import twitter from '../assests/Vector.png'
 const FooterList = () => {
   return (
-    <div className='  footer'>
+    <div className='  footer mt-5'>
       <Stack direction='horizontal' gap={3} className='container'>
         <div> Copyright 2022 Rongil. All Rights Reserved.</div>
 
