@@ -16,8 +16,8 @@ const Servicecontents = () => {
     <div>
       <div className='service-card p-5 ' id='service'>
         <h1 className='text servicetitle'> Our Service</h1>
-        <div className='cardlist cardlist1 '>
-          <div className='service__cardlist'>
+        <div className='card-sm   '>
+          <div className='service__cardlist me-4'>
             <img src={code1} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>Business Solutions</h4>
             <p className='textlist'>
@@ -36,8 +36,8 @@ const Servicecontents = () => {
             </p>
           </div>
         </div>
-        <div className='cardlist cardlist2'>
-          <div className='service__cardlist'>
+        <div className='card-sm '>
+          <div className='service__cardlist me-4'>
             <img src={plane} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>Design Sprint </h4>
             <p className='textlist'>
