@@ -580,6 +580,9 @@
 
 }
 
+.card-items {
+  gap: 20px;
+}
 
 .service__cardlist {
   display: flex;

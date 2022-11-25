@@ -16,8 +16,8 @@ const Servicecontents = () => {
     <div>
       <div className='service-card p-5 ' id='service'>
         <h1 className='text servicetitle'> Our Service</h1>
-        <div className='card-sm   '>
-          <div className='service__cardlist me-4'>
+        <div className='card-sm   card-items '>
+          <div className=' service__cardlist '>
             <img src={code1} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>Business Solutions</h4>
             <p className='textlist'>
@@ -26,7 +26,7 @@ const Servicecontents = () => {
               bottomline.
             </p>
           </div>
-          <div className='service__cardlist'>
+          <div className='service__cardlist card-items'>
             <img src={code} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>ICT Consulting</h4>
             <p className='textlist'>
@@ -36,8 +36,8 @@ const Servicecontents = () => {
             </p>
           </div>
         </div>
-        <div className='card-sm '>
-          <div className='service__cardlist me-4'>
+        <div className='card-sm  '>
+          <div className='service__cardlist card-items'>
             <img src={plane} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>Design Sprint </h4>
             <p className='textlist'>
@@ -46,7 +46,7 @@ const Servicecontents = () => {
               your customers what they truly want.
             </p>
           </div>
-          <div className='service__cardlist'>
+          <div className='service__cardlist card-items'>
             <img src={bulb} alt='' className='img-fluid' />
             <h4 className='servicetitle mt-3'>GovTech Innovation</h4>
             <p className='textlist'>
