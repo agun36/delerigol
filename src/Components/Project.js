@@ -7,7 +7,7 @@ const Project = () => {
       <div className=' p-5 '>
         <h1 className='text  mb-4'>Some Past Projects</h1>
         <div className='row-gold mb-5 d-flex justify-content-center container '>
-          <div className='card-project mb-4'>
+          <div className='card-project mb-4 container-fluid'>
             <Card.Body className='mt-5 p-3'>
               <img src={past} alt='' className='img-fluid' />
 
@@ -18,7 +18,7 @@ const Project = () => {
             </Card.Body>
           </div>
 
-          <div className='card-project mb-4'>
+          <div className='card-project mb-4 container-fluid'>
             <Card.Body className='mt-5 p-3'>
               <img src={past} alt='' className='img-fluid' />
 
@@ -29,8 +29,8 @@ const Project = () => {
             </Card.Body>
           </div>
 
-          <div className='card-project mb-4'>
-            <Card.Body className='mt-5 p-3'>
+          <div className='card-project mb-4 container-fluid'>
+            <Card.Body className='mt-5 p-3 '>
               <img src={past} alt='' className='img-fluid' />
 
               <p className='textlist'>
@@ -41,7 +41,7 @@ const Project = () => {
           </div>
         </div>
         <div className='row-gold mb-5 d-flex justify-content-center container'>
-          <div className='card-project mb-4'>
+          <div className='card-project mb-4 container-fluid'>
             <Card.Body className='mt-5 p-3'>
               <img src={past} alt='' className='img-fluid' />
 
@@ -52,7 +52,7 @@ const Project = () => {
             </Card.Body>
           </div>
 
-          <div className='card-project mb-4'>
+          <div className='card-project mb-4 container-fluid'>
             <Card.Body className='mt-5 p-3'>
               <img src={past} alt='' className='img-fluid' />
 
@@ -62,7 +62,7 @@ const Project = () => {
             </Card.Body>
           </div>
 
-          <div className='card-project mb-4'>
+          <div className='card-project mb-4 container-fluid'>
             <Card.Body className='mt-5 p-3'>
               <img src={past} alt='' className='img-fluid' />
 

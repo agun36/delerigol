@@ -39,13 +39,18 @@ const Banner1 = () => {
           itemAriaLabel={3}
         >
           <Col className='d-flex '>
-            <img className=' img-fluid img-car' src={clientcaro} alt='' />
+            <img
+              className='  img-car container-fluid'
+              src={clientcaro}
+              alt=''
+              style={{ width: '18rem' }}
+            />
           </Col>
-          <Col className='d-flex '>
-            <img className=' img-fluid img-car' src={clientcaro} alt='' />
+          <Col className='d-flex container-fluid'>
+            <img className='  img-car' src={clientcaro} alt='' />
           </Col>
-          <Col className='d-flex '>
-            <img className=' img-fluid img-car' src={clientcaro} alt='' />
+          <Col className='d-flex container-fluid'>
+            <img className='  img-car' src={clientcaro} alt='' />
           </Col>
         </Carousel>
       </Row>

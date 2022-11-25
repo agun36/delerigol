@@ -18,7 +18,10 @@ const NavbarList = () => {
           <Navbar.Brand href='#home'>
             <img src={rongil} alt='' />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='offcanvasNavbar-expand-md' />
+          <Navbar.Toggle
+            aria-controls='offcanvasNavbar-expand-md '
+            className=''
+          />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-collapse`}
             aria-labelledby='offcanvasNavbarLabel-expand-md'

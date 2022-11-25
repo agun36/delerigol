@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <>
         <Row className=' header--container '>
-          <Col sm={8} className='header__content'>
+          <Col sm={8} className='header__content container-fluid'>
             <h1 className='header__content--title'>
               Innovative Business Soutions
             </h1>
@@ -29,9 +29,9 @@ const Header = () => {
             <div className='blur'></div>
           </Col>
 
-          <Col sm={4} className=' header__content--image'>
+          <Col sm={4} className=' header__content--image container-fluid'>
             <img
-              className=' header__content--image--img1 img-fluid'
+              className=' container-fluid header__content--image--img1 img-fluid'
               src={headerimg}
               alt=''
             />
